@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://static.otbmall.com/statics//libs/nocmd/jquery/1.11.1/jquery.js"></script>
+  </head>
+  <body>
+    <div>test github page</div>
+    <script>
+      // 第一题、函数作用域，IEFF自执行函数作用域问题
+      // var a = 1;
+      // (function a() {
+      //   var a;
+      //   console.log(a);
+      //   a = 20;
+      // })();
+
+      // (b = () => {
+      //   console.log(b);
+      //   var b = 1;
+      // })();
+
+      // 第二题、this指向问题
+      // var number = 10;
+      // function fn() {
+      //   console.log(this.number);
+      // }
+      // var obj = {
+      //   number: 2,
+      //   show: function (fn) {
+      //     this.number = 3;
+      //     fn();
+      //     console.log(arguments[0])
+      //     arguments[0]();
+      //   },
+      // };
+      // obj.show(fn);
+      // 10 ,undefined
+
+      // 第三题
+      async function a (){
+          var result = Promise.reject()
+          result.about = function(){
+            console.log(1)
+          }
+          return result
+      }
+      var b = a()
+      console.log(b)
+    </script>
+  </body>
+</html>
