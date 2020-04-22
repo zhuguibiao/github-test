@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Blog Example',
   dest:'docs/',
-  base:'/docs/',
+  base:'/github-test/',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {

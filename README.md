@@ -10,4 +10,4 @@ yarn build
 For more details, please head VuePress's [documentation](https://vuepress.cn/).
 
 ### demo
-[demo](https://vuepress.cn/)
+[demo](https://zhuguibiao.github.io/github-test/)
