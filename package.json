@@ -7,7 +7,7 @@
     "name": "zhuguibiao",
     "email": "505418722@qq.com"
   },
-  "repository": "/githubTest",
+  "repository": "/github-test",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"

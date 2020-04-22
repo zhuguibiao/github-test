@@ -1,3 +1,12 @@
+---
+date: 2020-4-22
+tag: 
+  - markdown
+  - 前端面试
+author: zhuguibiao
+location: nanjing  
+---
+
 # 前端面试题自我检测
 ## 一、js原生问题
 1. v8引擎相关问题
