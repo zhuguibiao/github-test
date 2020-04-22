@@ -31,11 +31,11 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/zhuguibiao',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://twitter.com/zhuguibiao',
         },
       ],
       copyright: [
@@ -44,7 +44,7 @@ module.exports = {
           link: 'https://policies.google.com/privacy?hl=en-US',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'MIT Licensed | Copyright © 2020-present Vue.js',
           link: '',
         },
       ],
