@@ -8,3 +8,4 @@ dist
 .nyc_output
 
 # 本地blog
+docs
