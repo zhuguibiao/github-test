@@ -1,8 +1,7 @@
-console.log(require.resolve("./theme/"));
 module.exports = {
   title: "朱先生博客",
   dest: "docs/",
-  base: "/github-test/",
+  base: "/blog-test/",
   description: "学习记录 代码分享 经验总结",
   theme: require.resolve("./theme/"),
   markdown: {
@@ -10,7 +9,7 @@ module.exports = {
   },
   themeConfig: {
     dateFormat: "YYYY-MM-DD",
-    smoothScroll: true, // allows you to enable smooth scrolling
+    smoothScroll: true,
     // Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions;
@@ -71,7 +70,7 @@ module.exports = {
           link: "https://policies.google.com/privacy?hl=en-US",
         },
         {
-          text: "MIT Licensed | Copyright © 2020-present Vue.js",
+          text: "MIT Licensed | Copyright © 2020-present zhuguibiao.js",
           link: "",
         },
       ],
@@ -79,7 +78,7 @@ module.exports = {
     comment: {
       service: "vssue",
       owner: "zhuguibiao",
-      repo: "github-test",
+      repo: "blog-test",
       clientId: "182e2d75ebc24a7a4ea8",
       clientSecret: "06ce846a6647ec4c5688d2f0735ea834873ff339",
     },

@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "blog-test",
   "main": "index.js",
-  "homepage": "https://zhuguibiao.github.io/github-test/",
+  "homepage": "https://zhuguibiao.github.io/blog-test/",
   "authors": {
     "name": "zhuguibiao",
     "email": "505418722@qq.com"
   },
-  "repository": "/github-test",
+  "repository": "/blog-test",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"
