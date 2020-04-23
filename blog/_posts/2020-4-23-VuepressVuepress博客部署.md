@@ -2,7 +2,7 @@
 date: 2020-4-23
 tags: 
   - vue
-    vuepress
+  - vuepress
 author: zhuguibiao
 location: nanjing  
 ---

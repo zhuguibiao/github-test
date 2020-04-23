@@ -1,6 +1,6 @@
 ---
 date: 2020-4-22
-tag: 
+tags: 
   - markdown
   - 前端面试
 author: zhuguibiao
