@@ -41,8 +41,3 @@ location: nanjing
 ## 六、算法
 
 ## 七、计算机基础
-
-<br/>
-
-# 评论
-<Vssue :title="$title" />

@@ -80,19 +80,8 @@ module.exports = {
       service: "vssue",
       owner: "zhuguibiao",
       repo: "github-test",
-      clientId: "Iv1.c17353483d65035e",
-      clientSecret: "435cda143cdde0f6ae492630af1cac013070fea4",
+      clientId: "182e2d75ebc24a7a4ea8",
+      clientSecret: "06ce846a6647ec4c5688d2f0735ea834873ff339",
     },
   },
-  // plugins: {
-  //   "@vssue/vuepress-plugin-vssue": {
-  //     // 设置 `platform` 而不是 `api`
-  //     platform: "github",
-  //     // 其他的 Vssue 配置
-  //     owner: "zhuguibiao",
-  //     repo: "github-test",
-  //     clientId: "Iv1.c17353483d65035e",
-  //     clientSecret: "435cda143cdde0f6ae492630af1cac013070fea4",
-  //   },
-  // },
 };
