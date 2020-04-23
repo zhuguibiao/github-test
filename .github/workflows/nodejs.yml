@@ -30,6 +30,10 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.deploy_key }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: docs
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publich_branch: gh-pages
+          # ACTIONS_DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
+          # PUBLISH_BRANCH: gh-pages
+          # PUBLISH_DIR: docs
