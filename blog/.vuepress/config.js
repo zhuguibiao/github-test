@@ -79,8 +79,18 @@ module.exports = {
       service: "vssue",
       owner: "zhuguibiao",
       repo: "blog-test",
+      locale:'zh-CN',
       clientId: "182e2d75ebc24a7a4ea8",
       clientSecret: "06ce846a6647ec4c5688d2f0735ea834873ff339",
     },
   },
+  // plugins: [
+  //   ['@vssue/vuepress-plugin-vssue', {
+  //     platform: 'github',
+  //     owner: 'zhuguibiao',
+  //     repo: 'blog-test',
+  //     clientId: '182e2d75ebc24a7a4ea8',
+  //     clientSecret: '06ce846a6647ec4c5688d2f0735ea834873ff339',
+  //   }],
+  // ],
 };
